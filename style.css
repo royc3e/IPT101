@@ -1,0 +1,128 @@
+body {
+        background-color: lightgreen;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+    }
+
+    *{
+        font-family: cursive;
+        box-sizing: padding-box;
+    }
+
+    form {
+        width: 600px;
+        border: 3px solid rgb(177, 142, 142);
+        padding: 20px;
+        background-color: #05386b;
+        border-radius: 20px;
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 40px;
+        color: white;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 250%;
+    }
+
+    input {
+        display: block;
+        border: 2px solid #ccc;
+        width: 95%;
+        padding: 10px;
+        margin: 10px auto;
+        border-radius: 5px;
+    }
+
+    label {
+        color:white;
+        font-size: 18px;
+        padding: 10px;
+        font-family: "Times New Roman", Times, serif;
+    }
+
+    button {
+        float: right;
+        background: rgb(255, 134, 24);
+        padding: 10px 15px;
+        color: #fff;
+        border-radius: 5px;
+        margin-right: 10px;
+        border: none;
+        height: 13%;
+        width: 15%;
+        margin-bottom: 5px;
+        }
+
+       
+    button:hover{
+        opacity: .10;
+        background: rgb(11, 211, 247);
+        }
+
+    .error {
+        background-color: #d30f0f;
+        color: white;
+        border-color: #fff;
+        padding: 10px;
+        outline: solid  ;
+        width: 35%;
+        margin: 20px;
+        font-family: Arial, sans-serif;
+        }
+        
+    .error:hover {
+        transition: background-color 0.3s;
+        }
+    
+    h1 {
+        text-align: center;
+        color: rgb(134, 3, 3);
+        font-size: 250%;
+        }
+
+    a  {
+        text-align: left;
+        padding: 5px 5px;
+        color: lightblue;
+        margin-right: 10px;
+        border: none;   
+        font-size: large;
+        font-family: "Times New Roman", Times, serif;
+        } 
+        
+    a:hover{
+        opacity: .7;
+        }
+
+    p   {
+        color: white;
+        font-size: large;   
+        text-align: left;
+        padding-top: 0px;
+        margin-top: 0px;
+        font-size: 15px;
+        padding-left: 15px;
+        font-family: "Times New Roman", Times, serif;
+        }
+
+    .back{
+        color: rgb(134, 3, 3);
+        font-family: cursive;
+        font-size: 160%;
+        
+    }
+
+    .backTo{
+        color: white;
+        width: 50px;
+        height: 50px;
+        border: 2px solid black; 
+        font-weight: bolder;
+        background-color: darkblue;
+    }
+
+
